@@ -1,0 +1,45 @@
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git --version
+git version 2.34.1
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - Cars
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ touch index.html
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ ls
+index.html
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ ll
+total 0
+drwxrwxrwx 1 carsten carsten 4096 May 19 18:11 ./
+drwxrwxrwx 1 carsten carsten 4096 May 19 17:36 ../
+-rwxrwxrwx 1 carsten carsten    0 May 19 18:11 index.html*
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ touch style.css app.js
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ ll
+total 0
+drwxrwxrwx 1 carsten carsten 4096 May 19 18:13 ./
+drwxrwxrwx 1 carsten carsten 4096 May 19 17:36 ../
+-rwxrwxrwx 1 carsten carsten    0 May 19 18:13 app.js*
+-rwxrwxrwx 1 carsten carsten    0 May 19 18:11 index.html*
+-rwxrwxrwx 1 carsten carsten    0 May 19 18:13 style.css*
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git config --global user.name "carsten"
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git config --global user.email "carsten@localhost"
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario/.git/
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git add .
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git commit -m "Initiales Einrichten des Mario Repos" 
+[master (root-commit) 993d746] Initiales Einrichten des Mario Repos
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 app.js
+ create mode 100644 index.html
+ create mode 100644 style.css
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ git status
+On branch master
+nothing to commit, working tree clean
+carsten@AndreaLap:/mnt/d/Carsten/OneDrive - CarstenBoeger/OneDrive/Entwicklung/WslMario$ 
